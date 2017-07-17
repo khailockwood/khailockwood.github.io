@@ -1,4 +1,15 @@
 ﻿body
 {
     font-family: 'Segoe UI';
+    font-size: 20px;
+}
+
+
+/*Colors for later
+538BFF 2C13C7 36CFE2*/
+
+
+/*header*/
+header {
+    background: #538BFF;
 }
