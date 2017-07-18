@@ -1,7 +1,14 @@
-﻿body
-{
+﻿body {
     font-family: 'Segoe UI';
     font-size: 20px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    padding: 0;
+    margin: 0;
 }
 
 
@@ -12,4 +19,81 @@
 /*header*/
 header {
     background: #538BFF;
+    padding: 0;
+    margin: 0;
+    min-height: 100px;
+    border-bottom: #000000 solid;
 }
+
+    header a {
+        color: #000000;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+
+    header li {
+        float: left;
+        display: inline;
+        padding: 0 20px 0 20px;
+    }
+
+    header #branding {
+        float: left;
+        margin-top: 35px;
+        margin-left: 20px;
+    }
+
+        header #branding h1 {
+            margin: 0;
+            padding: 0;
+            text-transform: uppercase;
+            font-size: 25px;
+            font-weight: lighter;
+        }
+
+    header nav {
+        float: right;
+        margin-top: 40px;
+    }
+
+    header .highlight, header .current a {
+        font-weight: bold;
+    }
+
+/*nameimage*/
+#nameimage {
+    min-height: 800px;
+    background: url('../img/img1.jpg') no-repeat center;
+    background-size: cover;
+    text-align: center;
+}
+
+    #nameimage #name {
+        padding:330px;
+    }
+    #nameimage h1{
+        font-size: 60px;
+    }
+
+
+/*main*/
+#main {
+    min-height: 800px;
+    text-align: center;
+    background-color: #E4E6FF;
+}
+
+    #main h1 {
+        padding-top: 100px;
+    }
+
+    #main .square{
+        margin-top: 100px;
+        float: left;
+        width:33%;
+    }
+
+    #main .square img{
+        border-radius: 25px;
+    }
