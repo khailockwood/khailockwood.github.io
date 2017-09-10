@@ -18,11 +18,12 @@
 
 /*header*/
 header {
-    background: #538BFF;
+    background: #E4E6FF;
     padding: 0;
     margin: 0;
     min-height: 100px;
     border-bottom: #000000 solid;
+    font-family: 'Philosopher', sans-serif;
 }
 
     header a {
@@ -67,13 +68,15 @@ header {
     background: url('../img/img1.jpg') no-repeat center;
     background-size: cover;
     text-align: center;
+    font-family: 'Philosopher', sans-serif;
 }
 
     #nameimage #name {
-        padding:330px;
+        padding: 330px;
     }
-    #nameimage h1{
-        font-size: 60px;
+
+    #nameimage h1 {
+        font-size: 70px;
     }
 
 
@@ -82,18 +85,53 @@ header {
     min-height: 800px;
     text-align: center;
     background-color: #E4E6FF;
+    font-family: 'Indie Flower', cursive;
 }
 
     #main h1 {
         padding-top: 100px;
+        font-size: 40px;
     }
 
-    #main .square{
+    #main h3 {
+        font-size: 20px;
+    }
+
+    #main .square {
         margin-top: 100px;
         float: left;
-        width:33%;
+        width: 33%;
     }
 
-    #main .square img{
-        border-radius: 25px;
+        #main .square img {
+            border-radius: 25px;
+        }
+
+#basketball {
+    min-height: 800px;
+    text-align: center;
+    background-color: #FFFFFF;
+    font-family: 'Indie Flower', cursive;
+}
+
+    #basketball h1 {
+        padding-top: 75px;
+        font-size: 40px;
+        padding-bottom: 50px;
     }
+
+    #basketball h3 {
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 20px;
+    }
+
+    #basketball .square {
+        margin-top: 100px;
+        float: left;
+        width: 25%;
+    }
+
+        #basketball .square img {
+            border-radius: 25px;
+        }
