@@ -120,10 +120,34 @@ header {
         padding-bottom: 50px;
     }
 
-    #basketball h3 {
+    #basketball .leftphoto h3 {
+        text-align:left;
         margin-left: 10%;
         margin-right: 10%;
+        margin-bottom: 100px;
         font-size: 20px;
+    }
+
+    #basketball .rightphoto h3 {
+        text-align: left;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 100px;
+        font-size: 20px;
+    }
+
+    #basketball .leftphoto img {
+        float: left;
+        margin-left: 10%;
+        margin-right: 20px;
+        margin-bottom: 10px;
+    }
+
+    #basketball .rightphoto img {
+        float: right;
+        margin-left: 20px;
+        margin-right: 10%;
+        margin-bottom: 10px;
     }
 
     #basketball .square {
