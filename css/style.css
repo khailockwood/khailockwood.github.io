@@ -85,7 +85,7 @@ header {
 
 /*main*/
 #main {
-    min-height: 800px;
+    min-height: 600px;
     text-align: center;
     /*background-color: #E4E6FF;*/
     font-family: 'Open Sans Condensed', sans-serif;
@@ -121,7 +121,7 @@ header {
         }
 
 #basketball {
-    min-height: 800px;
+    min-height: 600px;
     text-align: center;
     background-color: #FFFFFF;
     font-family: 'Open Sans Condensed', sans-serif;
@@ -136,30 +136,32 @@ header {
     #basketball .leftphoto h3 {
         text-align: left;
         margin-left: 10%;
-        margin-right: 10%;
-        margin-bottom: 100px;
-        font-size: 20px;
+        margin-right: 20%;
+        margin-bottom: 80px;
+        font-size: 23px;
     }
 
     #basketball .rightphoto h3 {
+        padding-top: 100px;
         text-align: left;
-        margin-left: 10%;
+        margin-left: 20%;
         margin-right: 10%;
-        margin-bottom: 100px;
-        font-size: 20px;
+        margin-bottom: 80px;
+        font-size: 23px;
     }
 
     #basketball .leftphoto img {
         float: left;
-        margin-left: 10%;
+        margin-left: 20%;
         margin-right: 20px;
         margin-bottom: 10px;
     }
 
     #basketball .rightphoto img {
+        padding-top: 100px;
         float: right;
         margin-left: 20px;
-        margin-right: 10%;
+        margin-right: 20%;
         margin-bottom: 10px;
     }
 
@@ -266,7 +268,7 @@ header {
         }
 
 #about {
-    min-height: 800px;
+    min-height: 600px;
     text-align: center;
     background-color: #FFFFFF;
     font-family: 'Open Sans Condensed', sans-serif;
@@ -283,7 +285,7 @@ header {
         margin-left: 10%;
         margin-right: 10%;
         margin-bottom: 100px;
-        font-size: 20px;
+        font-size: 23px;
     }
 
     #about .rightphoto h3 {
@@ -291,7 +293,7 @@ header {
         margin-left: 10%;
         margin-right: 10%;
         margin-bottom: 100px;
-        font-size: 20px;
+        font-size: 23px;
     }
 
     #about .leftphoto img {
